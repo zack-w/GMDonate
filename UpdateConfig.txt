@@ -1,0 +1,4 @@
+DO NOT DO ANTHING WITH THIS FILE BEFORE READING THE UPDATES SECTION IN THE ADMIN PANEL
+Copy the text below the line into the box [note it may not work if you have not been upto date]
+--------------------------------------------------------------------------------------------------
+INSERT INTO `gmd_settings` VALUES (NULL, '2', 'width: 250px;', 'tos_link', 'ToS Link', 'This should be a link to your terms of service. Leave empty for no terms of service.', '');

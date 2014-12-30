@@ -1,0 +1,55 @@
+=========================================
+| GMDonate Installation Instructions	|
+=========================================
+Credits: Hans, Sal, Magikbanana
+
+[ Requirements ]
+--------------------------
+Here are the things you must have to run GMDonate
+	* Web Server (with MySQL)
+	* Atleast 1 Garry's Mod server
+If there are any questions with your Web/Garry's Mod server, please ask your host.
+
+[ Installation ]
+--------------------------
+There are two parts to installing GMDonate
+	* Web Portion
+	* Game/Garry's Mod Portion
+
+[ Installing Web Portion ]
+--------------------------
+(1) First you must create a database or use an existing database
+(2) Login to your web FTP and create a new directory such as "donate"
+(3) Upload all of the files inside Web to your newly created directory
+(4) Navigate to includes/config.php and then fill in your details
+	(a) To get your SteamID use http://steamidfinder.com
+	(b) Your LicenseKey is the PayPal transaction id from when you bought GMDonate
+(5) Go to the location you installed it in your web browser- the page should load fine
+(6) Click on the login with steam button and login
+(7) Click on Admin then on the left click on General Settings, complete the form and save
+(8) The web portion should now be complete, proceed to the Game Portion
+
+[ Installing Game Portion ]
+---------------------------
+(1) First create a support ticket with your host asking if they will install MysqlOO for you (sample ticket below)
+	** If they will not install it, the instructions are at http://facepunch.com/showthread.php?t=1220537
+	** NOTE: MysqlOO MUST BE INSTALLED, if you have trouble CONTACT ME OR YOUR HOST
+(2) Once MysqlOO is installed, login to your game FTP
+(3) Drag everything inside the Web folder onto your FTP folder named "garrysmod"
+(4) To make sure it's installed correctly go to garrysmod/addons.. you should see a folder named "GMDonate"
+(5) Open the file GMDonate/lua/GMdonate/init.lua through your FTP program
+(6) Fill in the configuration details to be the same as the web portion
+(7) Restart your server, and a message saying "GMDonate Version {Version} has loaded!"
+(8) The server installation is now complete. You can now configure servers via the web panel.
+(*) Note, make sure that you restart all Garry's Mod servers after editing items in the web panel
+
+[ Installation Issues ]
+-----------------------
+If you are having issues installing or configuring this addon please contact me via the CoderHire ticketing
+process or via steam (if you're on my friends list). I cannot offer to do free server installations, so I (Hans)
+or another developer will install it on your server for a small fee.
+
+There is a video installation at (https://www.youtube.com/watch?v=-wiNK_MvEu4) but it's crappy & laggy, these
+written instructions are preferred because they will remain updated through updates and such.
+
+Note: Your web server must also include support for a few other things such as APC & cURL

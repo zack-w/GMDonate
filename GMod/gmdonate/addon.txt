@@ -1,0 +1,10 @@
+"AddonInfo" {
+	"name"				"GMDonate"
+	"version"			"1.0.0"
+	"up_date"			"8/15/14"
+	"author_name"		"Hans"
+	"author_email"		"admin@thegamz.net"
+	"author_url"		"http://thegamz.net"
+	"info"				"Very customizable automated donation system"
+	"override"			"0"
+}
